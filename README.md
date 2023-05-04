@@ -66,7 +66,7 @@ npm run dev
 
 This will start the development server at **`http://localhost:3000/`** and you can see your React application in the browser.
 
-For more information on Vite, please refer to the **<ins>[official documentation](https://vitejs.dev/)</ins>**.
+- For more information on Vite, please refer to the **<ins>[official documentation](https://vitejs.dev/)</ins>**.
 
 #### Step 2: Install Tailwind CSS
 
@@ -95,7 +95,7 @@ To use Tailwind CSS in your project, you need to import the pre-defined CSS clas
 
 Alternatively, you can include the classes directly in your HTML files by adding the **`class`** attribute to your HTML elements.
 
-For more information on Tailwind CSS, please refer to the **<ins>[official documentation](https://tailwindcss.com/docs/installation)</ins>**.
+- For more information on Tailwind CSS, please refer to the **<ins>[official documentation](https://tailwindcss.com/docs/installation)</ins>**.
 
 #### Step 3: Install React Router DOM
 
@@ -111,14 +111,61 @@ Once React Router DOM is installed, you can define routes for your application b
 
 Overall, React Router DOM is a powerful library that simplifies the process of creating a multi-page web application with client-side routing.
 
-For more information on React Router DOM, please refer to the **<ins>[official documentation]()</ins>**.
+- For more information on React Router DOM, please refer to the **<ins>[official documentation]()</ins>**.
 
 #### Step 4: Initialize a Node.js Server
 
-To create a backend server for your web application, you can use Node.js and the express package, which is a popular web framework for Node.js.
+To create a backend server for your web application, you can use **Node.js** and the **express package**, which is a popular web framework for Node.js.
 
-To initialize a Node.js server, you can create a new directory for your server and run the following command:
+*To initialize a Node.js server, you can create a new directory for your server and run the following command:*
 
 ```
 npm init
 ```
+This will create a `package.json` file in your server directory, which contains information about your Node.js project, such as the name, version, and dependencies.
+
+Next, *you can install the `express` package by running the following command:*
+
+```
+npm install express
+```
+Once express is installed, you can create a new file called index.js and code to create a server.
+
+*You can run the server by navigating to the server directory in your terminal and running the following command:*
+
+```
+node index.js
+```
+
+This will start the server and You can access the server in your browser by navigating to **`http://localhost:3000`**.
+
+Overall, initializing a Node.js server is an important step in creating a web application with backend functionality, and **express** is a popular and easy-to-use web framework for Node.js.
+
+- For more information on Node.js, please refer to the **<ins>[official documentation](https://nodejs.org/en/docs)</ins>**.
+- For more information on Express, please refer to the **<ins>[official documentation]</ins>**.
+
+#### Step 5: Install Dependencies for OpenAI and Axios
+
+To integrate OpenAI's GPT-3 and DALL-E models into your web application, you'll need to use the OpenAI API. You can do this by installing the **openai** package, which provides a Node.js client for the OpenAI API. You'll also need to install **axios**, which is a popular HTTP client for Node.js that you can use to make requests to the OpenAI API.
+
+1.Install OpenAI:
+
+OpenAI is the API that is used to generate the text, images, SQL queries, and web summaries based on user input prompts. To install OpenAI, run the      following command:
+
+```
+npm install openai
+```
+- For more information on OpenAI, please refer to the **<ins>[official documentation](https://platform.openai.com/docs/introduction)</ins>**.
+
+2.Install Axios:
+
+Axios is a Promise-based HTTP client that is used to make API requests. To install Axios, run the following command:
+
+```
+npm install axios
+```
+
+Overall, installing the *openai* and *axios* packages is an important step in integrating the OpenAI GPT-3 and DALL-E models into your web application. By using these packages, you can easily make requests to the OpenAI API and generate text and images based on user input prompts.
+
+- For more information on Axios, please refer to the **<ins>[official documentation]</ins>**.
+
