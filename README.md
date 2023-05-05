@@ -41,6 +41,8 @@ The chatbot can generate web summaries based on user input prompts. The applicat
 - Node.js version 12 or higher
 - npm version 6 or higher
 
+------------------
+
 #### Step 1: Install Vite
 **<ins>Vite</ins>** is a build tool that helps in quickly setting up a modern development environment for web applications. It offers several features such as lightning-fast cold server start, hot module replacement, and support for various front-end frameworks such as React, Vue, and Angular.
 
@@ -67,6 +69,8 @@ npm run dev
 This will start the development server at **`http://localhost:3000/`** and you can see your React application in the browser.
 
 - For more information on Vite, please refer to the **<ins>[official documentation](https://vitejs.dev/)</ins>**.
+
+----------------------------
 
 #### Step 2: Install Tailwind CSS
 
@@ -97,6 +101,8 @@ Alternatively, you can include the classes directly in your HTML files by adding
 
 - For more information on Tailwind CSS, please refer to the **<ins>[official documentation](https://tailwindcss.com/docs/installation)</ins>**.
 
+-----------------------
+
 #### Step 3: Install React Router DOM
 
 **<ins>React Router DOM</ins>** is a routing library for React that allows you to create a multi-page web application with client-side routing. With React Router DOM, you can define routes for different pages in your application and navigate between them without reloading the page.
@@ -112,6 +118,8 @@ Once React Router DOM is installed, you can define routes for your application b
 Overall, React Router DOM is a powerful library that simplifies the process of creating a multi-page web application with client-side routing.
 
 - For more information on React Router DOM, please refer to the **<ins>[official documentation]()</ins>**.
+
+-------------------
 
 #### Step 4: Initialize a Node.js Server
 
@@ -144,6 +152,8 @@ Overall, initializing a Node.js server is an important step in creating a web ap
 - For more information on Node.js, please refer to the **<ins>[official documentation](https://nodejs.org/en/docs)</ins>**.
 - For more information on Express, please refer to the **<ins>[official documentation]</ins>**.
 
+-------------------
+
 #### Step 5: Install Dependencies for OpenAI and Axios
 
 To integrate OpenAI's GPT-3 and DALL-E models into your web application, you'll need to use the OpenAI API. You can do this by installing the **openai** package, which provides a Node.js client for the OpenAI API. You'll also need to install **axios**, which is a popular HTTP client for Node.js that you can use to make requests to the OpenAI API.
@@ -165,7 +175,13 @@ Axios is a Promise-based HTTP client that is used to make API requests. To insta
 npm install axios
 ```
 
-Overall, installing the *openai* and *axios* packages is an important step in integrating the OpenAI GPT-3 and DALL-E models into your web application. By using these packages, you can easily make requests to the OpenAI API and generate text and images based on user input prompts.
+Overall, installing the **openai** and **axios** packages is an important step in integrating the OpenAI GPT-3 and DALL-E models into your web application. By using these packages, you can easily make requests to the OpenAI API and generate text and images based on user input prompts.
 
-- For more information on Axios, please refer to the **<ins>[official documentation]</ins>**.
+- For more information on Axios, please refer to the **<ins>[official documentation](https://axios-http.com/docs/intro)</ins>**.
 
+## Conclusion
+
+This project aims to demonstrate the power of integrating multiple AI models into a single application to generate text, images, SQL queries, and web summaries in real-time. By showcasing the potential of AI-powered systems, this project aims to inspire developers to create more innovative and intelligent applications that enhance user experience.
+
+
+<h1 align = "center">Don't forget to ⭐ this repo<h3>
