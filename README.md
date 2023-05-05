@@ -117,7 +117,7 @@ Once React Router DOM is installed, you can define routes for your application b
 
 Overall, React Router DOM is a powerful library that simplifies the process of creating a multi-page web application with client-side routing.
 
-- For more information on React Router DOM, please refer to the **<ins>[official documentation]()</ins>**.
+- For more information on React Router DOM, please refer to the **<ins>[official documentation](https://reactrouter.com/en/main/start/tutorial)</ins>**.
 
 -------------------
 
