@@ -150,7 +150,7 @@ This will start the server and You can access the server in your browser by navi
 Overall, initializing a Node.js server is an important step in creating a web application with backend functionality, and **express** is a popular and easy-to-use web framework for Node.js.
 
 - For more information on Node.js, please refer to the **<ins>[official documentation](https://nodejs.org/en/docs)</ins>**.
-- For more information on Express, please refer to the **<ins>[official documentation]()https://expressjs.com/</ins>**.
+- For more information on Express, please refer to the **<ins>[official documentation](https://expressjs.com/)</ins>**.
 
 -------------------
 
