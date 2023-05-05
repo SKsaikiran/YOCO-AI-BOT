@@ -22,7 +22,7 @@ The main objective of this project is to demonstrate the potential of integratin
   The chatbot can generate SQL queries based on user input prompts. This feature can be useful for developers who need to generate SQL queries quickly and accurately.
 
 - ### Web Summary Generation
-The chatbot can generate web summaries based on user input prompts. The application can provide a summary of web pages, articles, and other online content.
+The chatbot can generate web summaries based on user input Link. The application can provide a summary of web pages, articles, and other online content.
 
 ## Applications
 <ins>**This technology has various potential applications, such as:**</ins>
